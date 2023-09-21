@@ -6,7 +6,6 @@ class Simulator {
     void runFIFO(std::vector<pcb> pcbs);
     void runSJF(std::vector<pcb> pcbs);
     void runRR(std::vector<pcb> pcbs, int quantum);
-    void displayResults();
 
    private:
 

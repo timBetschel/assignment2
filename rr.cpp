@@ -12,7 +12,6 @@ int main(int argc, char** argv) {
     Loader load;
     std::vector<pcb> pcbs = load.loadDataset(argv[2]);
     sim.runRR(pcbs, quantum);
-    sim.displayResults();
 
     return EXIT_SUCCESS; 
 }

@@ -11,7 +11,6 @@ int main(int argc, char** argv) {
     Loader load;
     std::vector<pcb> pcbs = load.loadDataset(argv[1]);
     sim.runFIFO(pcbs);
-    sim.displayResults();
 
     return EXIT_SUCCESS; 
 }

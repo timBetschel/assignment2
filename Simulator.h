@@ -1,4 +1,5 @@
 #include "Loader.h"
+#include <algorithm>
 #ifndef SIMULATOR
 #define SIMULATOR
 class Simulator {

@@ -12,7 +12,7 @@
 class pcb {
    
    public:
-    pcb::pcb(osp2023::id_type processID, osp2023::time_type burstTime);
+    pcb(osp2023::id_type processID, osp2023::time_type burstTime);
 
     // the unique process id
     osp2023::id_type id;

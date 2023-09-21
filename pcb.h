@@ -10,6 +10,10 @@
  * their definitions in types.h.
  **/
 class pcb {
+   
+   public:
+    pcb::pcb(osp2023::id_type processID, osp2023::time_type burstTime);
+
     // the unique process id
     osp2023::id_type id;
     // the total time that a process / job should run for
@@ -19,9 +23,7 @@ class pcb {
     // the priority level for this process
     // how much time has this process spent waiting for the cpu?
     osp2023::time_type total_wait_time;
-    // what time was this process last on the cpu?
 
-   public:
     // max and min duration for a process in our system.
     static constexpr osp2023::time_type MAX_DURATION = 100;
     static constexpr osp2023::time_type MIN_DURATION = 10;

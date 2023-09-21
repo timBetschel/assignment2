@@ -1,6 +1,3 @@
-#include <string>
-#include <iostream>
-#include <vector>
 #include "Loader.h"
 #ifndef SIMULATOR
 #define SIMULATOR

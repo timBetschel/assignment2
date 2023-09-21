@@ -6,7 +6,6 @@ int main(int argc, char** argv) {
         std::cerr << "Arguments need to have the format: ./sjf datafile" << std::endl;
         return EXIT_FAILURE;
     }
-    std::cout << "checking arguments: " << argv[0] << " " << argv[1] << std::endl;
 
     Simulator sim;
     Loader load;

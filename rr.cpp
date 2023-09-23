@@ -7,7 +7,7 @@ int main(int argc, char** argv) {
         return EXIT_FAILURE;
     }
 
-    int quantum = std::stoi(argv[1]);
+    long long quantum = std::stoi(argv[1]);
     Simulator sim;
     Loader load;
     std::vector<pcb> pcbs = load.loadDataset(argv[2]);

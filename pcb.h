@@ -23,6 +23,10 @@ class pcb {
     // the priority level for this process
     // how much time has this process spent waiting for the cpu?
     osp2023::time_type total_wait_time;
+    //how much time between the process arriving and its first execution
+    osp2023::time_type response_time;
+
+    osp2023::time_type turnaround_time;
 
     // max and min duration for a process in our system.
     static constexpr osp2023::time_type MAX_DURATION = 100;
